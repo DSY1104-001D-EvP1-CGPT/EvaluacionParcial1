@@ -69,3 +69,39 @@ function agregarAlCarrito(idProducto) {
 
 // 4. Cargar los productos cuando se abra la página
 document.addEventListener("DOMContentLoaded", cargarProductos);
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    const formulario = document.getElementById('formulario-contacto');
+
+    if (formulario) {
+        formulario.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const motivo = document.getElementById('motivo').value.trim();
+
+            if (nombre === '' || email === '' || motivo === '') {
+                alert('Por favor, completa todos los campos obligatorios.');
+                return;
+            }
+
+            const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!regexEmail.test(email)) {
+                alert('Por favor, ingresa un correo electrónico válido.');
+                return;
+            }
+
+            alert(`¡Gracias ${nombre}! Tu mensaje ha sido enviado con éxito. Te contactaremos pronto al correo: ${email}`);
+
+            formulario.reset();
+        });
+    }
+
+});
