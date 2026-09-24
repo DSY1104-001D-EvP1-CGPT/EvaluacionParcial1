@@ -124,7 +124,11 @@ footer div {
 }
 
 img {
-    max-width: 30%;
+    max-width: 50%;
+}
+
+table {
+    max-width: 80%;
 }
 
 /*
