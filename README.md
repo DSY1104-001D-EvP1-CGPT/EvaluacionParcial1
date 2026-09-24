@@ -1,4 +1,4 @@
-Evaluaciòn Parcial 1
+Evaluación Parcial 1
 
 Integrantes:
 - Cifuentes
