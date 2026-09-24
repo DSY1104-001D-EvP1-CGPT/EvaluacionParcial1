@@ -1,9 +1,4 @@
-header {
-    width: 100%;
-    padding: 25px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.123);
-}
+/* CONFIGURACIÓN GENERAL */
 
 body {
     margin: 0;
@@ -11,15 +6,56 @@ body {
     color: white;
 
     background-image:
-        linear-gradient(black, rgba(122, 102, 102, 0.45)),
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(122, 102, 102, 0.45)
+        ),
         url("../img/background.jpg");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    min-height: 100vh;
 }
- 
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* MENÚ */
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #7CFC00;
+}
+
+
+/* FOOTER */
+
 footer {
     position: fixed;
     bottom: 0;
@@ -31,6 +67,4 @@ footer div {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     text-align: center;
-    margin-top: auto;
-    
 }
