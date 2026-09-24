@@ -1,38 +1,73 @@
 /*
 
-Café Tostado:
-#3E2723
+Café Tostado: #3E2723 rgba(62, 39, 35)
 
-Ámbar Cálido:
-#FFB300
 
-Verde Hoja:
-#2E7D32
+Ámbar Cálido: #FFB300 rgba(255, 179, 0)
+- Llamativo y energético
+- Alta saturación y luminosidad para guiar al usuario a puntos de interés
 
-Crema Espuma: #FFF8E1
-- Buen color para usar de fondo
-- El calmo, y permite al usuario descansar la vista
+Verde Hoja: #2E7D32 rgba(46, 125, 50)
+- Ideal para darle carácter a la página
+- Color principal para armar cuadros o secciones
+
+Crema Espuma: #FFF8E1 rgba(255, 248, 225)
+- Indicado para usar en el fondo
+- Es calmo, y permite al usuario descansar la vista
 
 */
 
-h1{}
-h2{}
-h3{}
-h4{}
-h5{}
-h6{}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #FFF8E1;
 
-p{}
+    background-image:
+        linear-gradient(black, rgba(62, 39, 35, 0.45)),
+        url("../img/background.jpg");
 
-ul{}
-ol{}
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-nav{}
-footer{}
+header {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+nav {}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+footer div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
 
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
 
-a{}
-img{}
-button{}
-form{}
+p {}
+
+ul {}
+ol {}
+
+a {}
+button {}
+form {}
+
+img {}
+
 
