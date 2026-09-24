@@ -128,7 +128,9 @@ img {
 }
 
 table {
+    align-items: center;
     max-width: 80%;
+    margin: 0 auto;
 }
 
 /*
