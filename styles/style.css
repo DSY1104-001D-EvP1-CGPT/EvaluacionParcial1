@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-image:
+        linear-gradient(black, rgba(122, 102, 102, 0.45)),
+        url("../img/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    
+}
