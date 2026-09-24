@@ -11,15 +11,15 @@ const listaProductos = [
   },
   {
     id: 2,
-    nombre: "Set normal",
-    precio: 2000,
-    imagen: "img/producto2.jpg"
+    nombre: "Set Pro 2",
+    precio: 30000,
+    imagen: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.VgoS8ulR-8ALNZrAH5_fbQHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=f27d57ff67c05986ce73d29a1bece50ffa3be9b2e8be0ff51917dfc740589ca0&ipo=images"
   },
   {
     id: 3,
-    nombre: "Producto 3",
-    precio: 10000,
-    imagen: "img/producto3.jpg"
+    nombre: "Set Pro 3",
+    precio: 20000,
+    imagen: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOIP.C4q7cpdxFsuqZd1i9z2ZcAHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=30e291078048f5be1a0fb66781bb187ccaea78bcb8fa7d1459ab25cdc0270fa0&ipo=images"
   }
 ];
 
