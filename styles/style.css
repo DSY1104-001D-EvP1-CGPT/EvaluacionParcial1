@@ -79,6 +79,7 @@ nav a:hover {
 
 /* PIE DE PAGINA */
 footer {
+    margin-top: 100px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -133,6 +134,10 @@ table {
     margin: 0 auto;
 }
 
+button {
+    margin-bottom: 30px;
+}
+
 /*
 h1 {}
 h2 {}
@@ -147,7 +152,6 @@ ul {}
 ol {}
 
 a {}
-button {}
 form {}
 
 img {}
