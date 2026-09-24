@@ -69,3 +69,38 @@ footer div {
     padding: 20px;
     text-align: center;
 }
+
+
+/* CONTACTO */
+
+.titulo-contacto {
+    text-align: center;
+}
+
+.formulario-contacto {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto 120px;
+}
+
+.formulario-contacto div {
+    margin-bottom: 15px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.formulario-contacto button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+}
